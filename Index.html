@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rắn săn mồi</title>
+    <style>
+        canvas{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <button id="Play" onclick="Play()">Play</button>
+                <button id="Restart" onclick="NewGame()">Restart</button>
+<!--                <button id="Pause" onclick="pause()">Pause</button>-->
+            </td>
+            <td>HighScore
+                <p id="highScore"></p>
+            </td>
+        </tr>
+    </table>
+
+    <canvas id="snake" width="608" height="608">
+    </canvas>
+    <script src="Snake.js"></script>
+
+</body>
+</html>
